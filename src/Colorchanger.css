@@ -1,0 +1,57 @@
+.color-page {
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease;
+}
+
+.color-card {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.color-card h1 {
+  color: #1e293b;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.color-card > p {
+  color: #64748b;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.color-input {
+  width: 100px;
+  height: 60px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+}
+
+.selected-color {
+  margin-top: 25px;
+  padding: 15px;
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.selected-color p {
+  color: #475569;
+  font-size: 16px;
+}
+
+.selected-color strong {
+  display: block;
+  color: #2563eb;
+  font-size: 20px;
+  margin-top: 8px;
+}
